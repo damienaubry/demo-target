@@ -3,6 +3,8 @@
 :root {
   --ink: #1d1b2e;
   --muted: #6b6780;
+  --dark-bg: #1d1b2e;
+  --dark-text: #ffffff;
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; }
@@ -84,5 +86,10 @@ nav {
 .emoji { font-size: 40px; margin-bottom: 16px; }
 .tile h3 { margin: 0 0 8px; font-size: 24px; font-weight: 700; }
 .tile p { margin: 0; line-height: 1.55; font-size: 16px; opacity: 0.95; }
+
+.tile:nth-child(7) {
+  background: var(--dark-bg);
+  color: var(--dark-text);
+}
 
 footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 60px; }
