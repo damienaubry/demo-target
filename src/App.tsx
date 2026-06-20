@@ -21,6 +21,9 @@ export default function App() {
   const fullList = [...list, ...additionalFeatures];
   return (
     <main>
+      <div className="topbar">
+        <span className="promo-text">Use code <strong>20%</strong> off your first purchase!</span>
+      </div>
       <nav>
         <span className="logo">✺ Lumen</span>
         <span className="navcta">Get started</span>
