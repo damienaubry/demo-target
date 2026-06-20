@@ -14,7 +14,13 @@ const COLORS = [
   "#f76808",
 ];
 
-const additionalFeatures: Feature[] = [];
+const additionalFeatures: Feature[] = [
+  {
+    emoji: "🌙",
+    title: "Dark Mode",
+    description: "A sleek, eye-friendly mode for night-time browsing.",
+  },
+];
 
 export default function App() {
   const list = features as Feature[];
