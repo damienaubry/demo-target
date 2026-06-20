@@ -14,8 +14,15 @@ const COLORS = [
   "#f76808",
 ];
 
+const additionalFeatures: Feature[] = [
+  { emoji: "🚀", title: "Launch Your Ideas", description: "Bring your concepts to life with Lumen." },
+  { emoji: "🔒", title: "Secure Your Data", description: "We prioritize your privacy and data security." },
+  { emoji: "🌍", title: "Reach a Global Audience", description: "Expand your horizons and connect worldwide." },
+];
+
 export default function App() {
   const list = features as Feature[];
+  const fullList = [...list, ...additionalFeatures];
   return (
     <main>
       <nav>
@@ -24,8 +31,8 @@ export default function App() {
       </nav>
 
       <header className="hero">
-        <div className="count" key={list.length}>
-          {list.length}
+        <div className="count" key={fullList.length}>
+          {fullList.length}
         </div>
         <div>
           <h1>reasons people love Lumen.</h1>
@@ -34,7 +41,7 @@ export default function App() {
       </header>
 
       <section className="grid">
-        {list.map((f, i) => (
+        {fullList.map((f, i) => (
           <article
             className="tile"
             key={i}
