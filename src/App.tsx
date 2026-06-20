@@ -21,6 +21,9 @@ export default function App() {
   const fullList = [...list, ...additionalFeatures];
   return (
     <main>
+      <div className="top-bar">
+        <span className="promo-code">Use code <strong>20%OFF</strong> for 20% off!</span>
+      </div>
       <nav>
         <span className="logo">✺ Lumen</span>
         <span className="navcta">Get started</span>
