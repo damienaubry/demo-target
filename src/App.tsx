@@ -12,9 +12,16 @@ const COLORS = [
   "#2bb673",
   "#00b8d9",
   "#f76808",
+  "#555555", // Added color for dark mode feature card
 ];
 
-const additionalFeatures: Feature[] = [];
+const additionalFeatures: Feature[] = [
+  {
+    emoji: "🌙",
+    title: "Dark Mode",
+    description: "Experience a sleek, dark interface that's easy on the eyes, especially at night.",
+  },
+];
 
 export default function App() {
   const list = features as Feature[];
