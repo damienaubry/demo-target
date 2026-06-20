@@ -18,11 +18,6 @@ export default function App() {
   const list = features as Feature[];
   return (
     <main>
-      <nav>
-        <span className="logo">✺ Lumen</span>
-        <span className="navcta">Get started</span>
-      </nav>
-
       <header className="hero">
         <div className="count" key={list.length}>
           {list.length}
