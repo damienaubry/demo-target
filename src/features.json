@@ -13,5 +13,10 @@
     "emoji": "🌍",
     "title": "Works everywhere",
     "description": "One account, every device, every continent."
+  },
+  {
+    "emoji": "🔧",
+    "title": "Test",
+    "description": "Feature under test for continuous integration."
   }
 ]
