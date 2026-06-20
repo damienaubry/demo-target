@@ -1,17 +1,17 @@
 [
   {
     "emoji": "⚡",
-    "title": "Instant setup",
-    "description": "Go from zero to deployed in under a minute, no config required."
+    "title": "Lightning fast",
+    "description": "Pages load before you blink. Speed is a feature."
   },
   {
     "emoji": "🔒",
-    "title": "Secure by default",
-    "description": "Every request is authenticated and encrypted end to end."
+    "title": "Locked down",
+    "description": "Bank-grade encryption on every single request."
   },
   {
-    "emoji": "📈",
-    "title": "Scales with you",
-    "description": "From your first user to your millionth, with no rewrites."
+    "emoji": "🌍",
+    "title": "Works everywhere",
+    "description": "One account, every device, every continent."
   }
 ]
