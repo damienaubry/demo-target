@@ -1,10 +1,5 @@
 [
   {
-    "emoji": "⚡",
-    "title": "Lightning fast",
-    "description": "Pages load before you blink. Speed is a feature."
-  },
-  {
     "emoji": "🔒",
     "title": "Locked down",
     "description": "Bank-grade encryption on every single request."
