@@ -37,6 +37,16 @@ nav {
   font-size: 14px;
 }
 
+.top-bar {
+  background: var(--ink);
+  color: #fff7ec;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 28px;
+  font-size: 16px;
+}
+
 .hero { display: flex; align-items: center; gap: 28px; margin-bottom: 56px; }
 .count {
   font-family: "Fraunces", serif;

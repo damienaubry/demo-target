@@ -18,6 +18,9 @@ export default function App() {
   const list = features as Feature[];
   return (
     <main>
+      <div className="top-bar">
+        <span className="promo-code">Promo Code: 20% OFF</span>
+      </div>
       <nav>
         <span className="logo">✺ Lumen</span>
         <span className="navcta">Get started</span>
