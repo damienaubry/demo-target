@@ -16,7 +16,6 @@ const COLORS = [
 
 const additionalFeatures: Feature[] = [
   { emoji: "🚀", title: "Launch Your Ideas", description: "Bring your concepts to life with Lumen." },
-  { emoji: "🔒", title: "Secure Your Data", description: "We prioritize your privacy and data security." },
   { emoji: "🌍", title: "Reach a Global Audience", description: "Expand your horizons and connect worldwide." },
 ];
 
