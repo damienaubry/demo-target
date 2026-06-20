@@ -8,5 +8,47 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const additionalFeature = {
+        emoji: "🌙",
+        title: "Dark Mode",
+        description: "A sleek, eye-friendly mode for night-time browsing.",
+      };
+
+      const root = document.getElementById('root');
+      const features = /* existing features array */;
+      const allFeatures = [...features, additionalFeature];
+
+      root.innerHTML = `
+        <main>
+          <nav>
+            <span class="logo">✺ Lumen</span>
+            <span class="navcta">Get started</span>
+          </nav>
+
+          <header class="hero">
+            <div class="count">${allFeatures.length}</div>
+            <div>
+              <h1>reasons people love Lumen.</h1>
+              <p class="sub">…and the list keeps growing — by voice.</p>
+            </div>
+          </header>
+
+          <section class="grid">
+            ${allFeatures.map((f, i) => `
+              <article
+                class="tile"
+                style="background: ${COLORS[i % COLORS.length]}; animation-delay: ${i * 90}ms;"
+              >
+                <div class="emoji">${f.emoji}</div>
+                <h3>${f.title}</h3>
+                <p>${f.description}</p>
+              </article>`).join('')}
+          </section>
+
+          <footer>Made with ♥ by the Lumen team</footer>
+        </main>
+      `;
+    </script>
   </body>
 </html>
